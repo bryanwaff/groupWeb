@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Carattere&family=Cinzel&family=Great+Vibes&family=Grechen+Fuemen&family=Luckiest+Guy&family=Oswald:wght@200&family=Pacifico&family=Staatliches&display=swap');
 * {
     box-sizing: border-box;
     font-family: 'Oswald', sans-serif;
@@ -6,12 +6,15 @@
 header{
     background-color: #1daa21;
     height: 110px;
+    overflow: hidden;
+    top: 0;
 }
 header h1{
     text-align: center;
+    margin-top: 1rem;
     color: #fff;
     font-size: 50px;
-    font-family: 'Pacifico', cursive;;
+    font-family: 'Grechen Fuemen';
 }
 
 section img{
@@ -22,6 +25,7 @@ section img{
 }
 
 .nav{
+    top: 0;
     height: 70px;
     text-align: center;
     padding: 15px;
@@ -31,7 +35,8 @@ section img{
     text-decoration: none;
     color: #fff;
     padding: 0 20px;
-    font-family: 'Pacifico', cursive;;
+    font-family: 'Grechen Fuemen';
+    font-size: 20px;
 }
 
 .nav a:hover{
