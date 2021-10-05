@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Pacifico&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+  }
+header{
+    background-color: #1daa21;
+    height: 110px;
+}
+header h1{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Pacifico', cursive;;
+}
+
+section img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    margin: -4px 0;
+}
+
+.nav{
+    height: 70px;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+}
+.nav a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0 20px;
+    font-family: 'Pacifico', cursive;;
+}
+
+.nav a:hover{
+    color: #aeffb1
+}
+
+.nav .active{
+    text-decoration: underline;
+}
+
+.body{
+    margin: auto;
+    width: 70%;
+    text-align: center;
+}
+.body .intro{
+    width: 50%;
+    margin: auto;
+}
+.body img{
+    width: 50%;
+}
+
+.body h1{
+    color: #1daa21;
+    font-size: 40px;
+}
+
+.body p{
+    font-size: 16px;
+}
+
+.teaser{
+    margin: auto 20px;
+    text-align: center;
+    background-color: #bfddc0;
+    padding: 0 0 15px;
+}
+
+.teaser img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    padding: 0 10px 20px 0;
+}
+.teaser h2{
+    color: #1daa21;
+    font-size: 30px;
+}
+
+.button{
+    background-color: #1daa21;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 200px;
+}
+
+.button:hover{
+    background-color: #0d6610;
+}
+
+footer{
+    background-color: #1daa21;
+    height: 55px;
+    text-align: center;
+    padding: 5px 0;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.contact{
+    margin: auto;
+    width: 100%;
+}
+.contact h1{
+    text-align: center;
+}
+
+.contact h3{
+    font-size: 30px;
+}
+
+.contact .contact-form{
+    text-align: left;
+    margin: 0 30%;
+}
+
+.contact .contact-form form{
+    text-align: left;
+
+}
+.contact .contact-form form{
+    color: #1daa21;
+    font-size: 20px;
+}
+
+.contact .contact-form form input{
+    width: 500px;
+    height: 40px;
+    border-color: #1daa21;
+    border: none;
+    background-color: #c4f0c6;
+}
+
+.contact .contact-details{
+    text-align: center;
+    margin: 0 30%;
+}
+
+.contact .contact-form .details{
+    text-align: left;
+}
+
+.details{
+    text-align: left;
+}
+
+
+.details h4{
+    color: #1daa21;
+}
+
+.details p{
+    color: #000;
+}
+
+.contact .map{
+    margin: 0 15%;
+}
+
+.gallery h1{
+    text-align: center;
+}
+
+.gallery img{
+    width: 400px;
+    object-fit: cover;
+    padding: 15px;
+}
