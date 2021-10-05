@@ -169,6 +169,10 @@ footer{
     margin: 0 15%;
 }
 
+.gallery{
+    text-align: center;
+}
+
 .gallery h1{
     text-align: center;
 }
@@ -177,4 +181,8 @@ footer{
     width: 400px;
     object-fit: cover;
     padding: 15px;
+}
+
+.gallery .images{
+    margin: auto;
 }
